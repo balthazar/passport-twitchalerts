@@ -1,0 +1,14 @@
+{
+  "name": "passport-twitchalerts",
+  "version": "0.0.1",
+  "main": "./src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Apercu/passport-twitchalerts.git"
+  },
+  "keywords": ["passport", "twitch", "twitch-alerts", "strategy"],
+  "author": "Balthazar Gronon <bgronon@gmail.com>",
+  "dependencies": {
+    "passport-oauth": "~1.0.0"
+  }
+}
