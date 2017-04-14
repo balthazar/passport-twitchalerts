@@ -14,6 +14,7 @@ Since TwitchAlerts doesn't provide an endpoint to get basic user informations, t
 A `scope` is required, all scopes are [available here](https://twitchalerts.readme.io/docs/scopes).
 
     passport.use(new TwitchAlertStrategy({
+      response_type: 'code',
       clientID: CLIENT_ID,
       clientSecret: CLIENT_SECRET,
       callbackURL: 'http://127.0.0.1:3000/auth/callback',
