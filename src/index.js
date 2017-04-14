@@ -5,6 +5,7 @@ function Strategy(options, verify) {
   options = options || {}
   options.authorizationURL = options.authorizationURL || 'https://streamlabs.com/api/v1.0/authorize'
   options.tokenURL = options.tokenURL || 'https://streamlabs.com/api/v1.0/token'
+  options.response_type = 'code'
 
   OAuth2Strategy.call(this, options, verify)
   this.name = 'twitchalerts'
